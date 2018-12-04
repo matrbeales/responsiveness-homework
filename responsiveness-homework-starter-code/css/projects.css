@@ -18,3 +18,15 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 320px) {
+  #headshot {
+    display: none;
+  }
+  .tile {
+    width: 99%;
+    }
+  .screenshot {
+    width: 90%;
+  }
+}

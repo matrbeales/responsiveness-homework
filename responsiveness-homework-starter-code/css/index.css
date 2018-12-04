@@ -30,3 +30,21 @@ header, .experience {
 	border: 2px solid #E13A63;
 	padding: 10px;
 }
+
+@media screen and (max-width: 320px) {
+	#headshot {
+		display: none;
+	}
+	.main-content .right {
+		width: 99%;
+	}
+
+	.left {
+		display: none;
+	}
+
+	section .right {
+		width: 99%;
+		float: none;
+	}
+}
